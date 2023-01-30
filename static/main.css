@@ -46,7 +46,7 @@ input[type="text"] {
   border: 1px solid #10a37f;
   border-radius: 4px;
   margin-bottom: 24px;
-  height: 260px;
+  height: 120px;
 }
 ::placeholder {
   color: #8e8ea0;
@@ -65,4 +65,5 @@ input[type="submit"] {
 .result {
   font-weight: bold;
   margin-top: 40px;
+  height: 120px;
 }
