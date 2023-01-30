@@ -47,6 +47,8 @@ input[type="text"] {
   border-radius: 4px;
   margin-bottom: 24px;
   height: 120px;
+  rows: 5;
+  
 }
 ::placeholder {
   color: #8e8ea0;
