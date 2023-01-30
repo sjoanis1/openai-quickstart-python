@@ -60,6 +60,7 @@ input[type="submit"] {
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
+  height: 320px;
 }
 .result {
   font-weight: bold;
