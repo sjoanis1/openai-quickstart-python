@@ -1,5 +1,5 @@
 {
     "01": {
-        "prompt" : "test."
-    }
+        "prompt" : "New York", "completion" : "New York" 
+       }
 }
