@@ -12,7 +12,7 @@ response = openai.Completion.create(
             model="text-davinci-003",
             prompt=prompt,
             temperature=0.6,
-            max_tokens=1500,
+            max_tokens=256,
 #            stop = None,
         )
 
