@@ -1,0 +1,2 @@
+"prompt": "<prompt text>", "completion": "<ideal generated text>"
+"prompt": 'show 5 cities has receive funding from the Urban Area Security Initiative UASI', 'completion': '\n\n1. New York City, NY \n2. Los Angeles, CA \n3. Chicago, IL \n4. Houston, TX \n5. Philadelphia, PA'
