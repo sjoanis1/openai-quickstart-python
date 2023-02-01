@@ -1,34 +1,29 @@
 import os
 
 import openai
-from flask import Flask, redirect, render_template, request, url_for
-
-app = Flask(__name__)
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
-@app.route("/", methods=("GET", "POST"))
-def index():
-    if request.method == "POST":
-        animal = request.form["animal"]
-        response = openai.Completion.create(
+#define the prompt
+prompt = """Find who has receive funding from the Urban Area Security Initiative UASI"""
+
+#generate a response
+response = openai.Completion.create(
             model="text-davinci-003",
-            prompt=generate_prompt(animal),
+            prompt=prompt,
             temperature=0.6,
-            max_tokens=350,
+            max_tokens=1500,
+#            stop = None,
         )
-        return redirect(url_for("index", result=response.choices[0].text))
 
-    result = request.args.get("result")
-    return render_template("index.html", result=result)
+#extract the notes from the response
+notes = response.choices[0].text
 
-
-def generate_prompt(animal):
-    return """
-    {}   
-""".format(
-        animal.capitalize()
-    )
+#Add response to a .txt file
+with open('testresults.txt', mode='w') as file_object:
+#    print(["test",notes], file=file_object)
+    print((prompt,"|",notes), file=file_object)
 
 
-
+#print the notes
+print(notes)
