@@ -1,0 +1,1 @@
+('Suggest ten names for an horse that is a superhero.', '|', '\n\n1. Steed of Justice\n2. Equinox\n3. Thunderbolt\n4. The Mighty Mare\n5. Iron Horse\n6. Super Stallion\n7. Pegasus Prime\n8. The Noble Steed\n9. Captain Clydesdale\n10. The Mystic Mustang')
