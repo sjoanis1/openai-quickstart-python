@@ -5,7 +5,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 #define the prompt
-prompt = """Find who has receive funding from the Urban Area Security Initiative UASI"""
+prompt = """show 5 cities has receive funding from the Urban Area Security Initiative UASI"""
 
 #generate a response
 response = openai.Completion.create(
