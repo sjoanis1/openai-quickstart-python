@@ -5,7 +5,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 #define the prompt
-prompt = """Suggest ten names for an horse that is a superhero."""
+prompt = """Find who has receive funding from the Urban Area Security Initiative UASI"""
 
 #generate a response
 response = openai.Completion.create(
@@ -26,4 +26,4 @@ with open('testresults.txt', mode='w') as file_object:
 
 
 #print the notes
-#print(notes)
+print(notes)
