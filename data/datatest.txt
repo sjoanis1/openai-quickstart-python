@@ -1,0 +1,3 @@
+"prompt": "<prompt text>", "completion": "<ideal generated text>"
+"prompt": 'Recommend a name for a black horse', 'completion': '\n Black horse'
+"prompt": 'Recommend a name for a black sheep', 'completion': '\n Black sheep'
