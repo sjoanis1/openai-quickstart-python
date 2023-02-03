@@ -1,1 +1,1 @@
-('Suggest ten names for an horse that is a superhero.', '|', '\n\n1. Steed of Justice\n2. Equinox\n3. Thunderbolt\n4. The Mighty Mare\n5. Iron Horse\n6. Super Stallion\n7. Pegasus Prime\n8. The Noble Steed\n9. Captain Clydesdale\n10. The Mystic Mustang')
+('show 5 cities has receive funding from the Urban Area Security Initiative UASI', '|', '\n\n1. New York City, NY \n2. Los Angeles, CA \n3. Chicago, IL \n4. Houston, TX \n5. Philadelphia, PA')
