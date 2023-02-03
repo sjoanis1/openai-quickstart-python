@@ -7,21 +7,12 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 #define the prompt
 prompt = """show 5 cities has receive funding from the Urban Area Security Initiative UASI"""
 
-#generate a response
-#response = openai.Completion.create(
-#            model="text-davinci-003",
-#            prompt=prompt,
-#            temperature=0.6,
-#            max_tokens=256,
-#        )
 
-
-
-#generate a response using fine tuned model  (recommend at least 100 entries)
 response = openai.Completion.create(
-            model="ada",
+#            model="ada",
+            model="text-davinci-003",
             prompt=prompt,
-            temperature=0.6,
+            temperature=0,
             max_tokens=256,
         )
 
