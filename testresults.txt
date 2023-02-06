@@ -1,1 +1,1 @@
-('show 5 cities has receive funding from the Urban Area Security Initiative UASI', '|', '\n\n1. New York City, NY \n2. Los Angeles, CA \n3. Chicago, IL \n4. Houston, TX \n5. Philadelphia, PA')
+('show 5 cities has receive funding from the Urban Area Security Initiative UASI', '|', '\n\n1. New York City, NY\n2. Los Angeles, CA\n3. Chicago, IL\n4. Houston, TX\n5. Philadelphia, PA')
