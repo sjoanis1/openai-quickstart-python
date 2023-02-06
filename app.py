@@ -9,7 +9,8 @@ def index():
     if request.method == "POST":
         animal = request.form["animal"]
         response = openai.Completion.create(
-            model="text-davinci-003",
+#            model="text-davinci-003",
+            model="curie:ft-personal-2023-02-06-21-28-47"
             prompt=generate_prompt(animal),
             temperature=0.6,
             max_tokens=350,
