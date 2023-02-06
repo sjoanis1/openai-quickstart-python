@@ -10,9 +10,10 @@ prompt = """show 5 cities has receive funding from the Urban Area Security Initi
 
 #generate a response using fine tuned model  (recommend at least 100 entries before using)
 response = openai.Completion.create(
-#            model="davinci:ft-personal-2023-02-01-22-49-33",
+#            model="davinci:ft-personal-2023-02-01-22-49-33",             
 #            model="text-davinci-003",
-            model="ada",
+            model="text-curie-001",            
+#            model="ada",
             prompt=prompt,
             temperature=0.6,
             max_tokens=256,
