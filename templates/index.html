@@ -10,12 +10,27 @@
 
 <body>
   <img src="{{ url_for('static', filename='SJ Performance LOGO.png') }}" class="icon" />
-  <h3>Use Chat GPT</h3>
+  <h3>AI Assistant</h3>
+
   <form action="/" method="post">
-    <input type="text" name="animal" placeholder="Enter an question" required />
-    <input type="submit" value="Generate an answer" />
-  </form>
-  {% if result %}
-  <div class="result">{{ result }}</div>
-  {% endif %}
+    <label for = "question1"> question1</label>    
+    <textarea type="text" name="question1" placeholder="Enter an question" row="4" cols="60" style="height: 100px; width: 600px;"></textarea>>    
+    <input type="submit" value="Generate an answer" />       
+    </form>
+    
+  <!--
+    <textarea type="submit" value="Generate an answer"></textarea>>    
+    
+    <input type="text" name="question1" placeholder="Enter an question" style="height: 100px; width: 600px;" multiple required/>        
+  -->    
+  
+<!--
+    -->    
+  
+
+{% if result %}
+<div class="result">{{ result }}</div>
+{% endif %}
+
+
 </body>
