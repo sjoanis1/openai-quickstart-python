@@ -16,12 +16,13 @@ def index():
 
         temp = request.form["temperature"]
         print(temp)
+
         response = openai.Completion.create(
-#            model="text-davinci-003",
-            model="text-curie-001",         
+            model="text-davinci-003",
+#            model="text-curie-001",         
 #            model="curie:ft-personal-2023-02-06-21-28-47",            
             prompt=generate_prompt(main_question),
-            temperature=0,
+            temperature=generate_temp(temp),
             max_tokens=500,
         )
         print(response.choices[0].text)
@@ -38,6 +39,14 @@ def generate_prompt(main_question):
 """.format(
         main_question.capitalize()
     )
+
+
+def generate_temp(temp):
+    return """
+    {}   
+""".format(temp        
+    )
+
 
 
 
