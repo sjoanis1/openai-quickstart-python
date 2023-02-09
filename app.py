@@ -6,7 +6,6 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 from flask import Flask, redirect, render_template, request, url_for
 app = Flask(__name__)
 
-
 @app.route("/", methods=("GET", "POST"))
 
 def index():
@@ -14,21 +13,19 @@ def index():
         main_question = request.form["question1"] 
         print(main_question)
 
-        temp = request.form["temperature"]
+        temp = float(request.form["temperature"])        
         print(temp)
 
         response = openai.Completion.create(
             model="text-davinci-003",
 #            model="text-curie-001",         
 #            model="curie:ft-personal-2023-02-06-21-28-47",            
-            prompt=generate_prompt(main_question),
-            temperature=generate_temp(temp),
+            prompt=generate_prompt(main_question),       
+            temperature = float(temp),
             max_tokens=500,
         )
         print(response.choices[0].text)
-        return redirect(url_for("index", result=response.choices[0].text))
-        
-
+        return redirect(url_for("index", result=response.choices[0].text))      
     result = request.args.get("result")
     return render_template("index.html", result=result)
 
@@ -39,15 +36,6 @@ def generate_prompt(main_question):
 """.format(
         main_question.capitalize()
     )
-
-
-def generate_temp(temp):
-    return """
-    {}   
-""".format(temp        
-    )
-
-
 
 
 
