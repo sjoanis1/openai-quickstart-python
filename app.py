@@ -3,8 +3,6 @@ import openai
 openai.organization = "org-s5xRdnxv3xUnpGDRaIRKDC6H"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-
-
 #clear content from previous call
 open('testresults.txt', mode='w') 
 
