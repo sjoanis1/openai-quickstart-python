@@ -1,1 +1,1 @@
-('Who is the fire chief of the Los Angeles Fire Department?', '|', '\n\nThe current Fire Chief of the Los Angeles Fire Department is Chief Ralph Terrazas.')
+('Who is the fire chief of the Los Angeles Fire Department?', '|', '\n\nThe current fire chief of the Los Angeles Fire Department is Chief Ralph Terrazas.')
