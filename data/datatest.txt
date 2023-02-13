@@ -1,3 +1,14 @@
-"prompt": "<prompt text>", "completion": "<ideal generated text>"
-"prompt": 'Recommend a name for a black horse', 'completion': '\n Black horse'
-"prompt": 'Recommend a name for a black sheep', 'completion': '\n Black sheep'
+"prompt": 'Who is the fire chief of the Cambridge Fire Department?', 'completion': '\n Thomas F. Cahill'
+"prompt": 'Who is the fire chief of the Pittsburgh bureau of fire?', 'completion': '\n Darryl E. Jones'
+"prompt": 'Who is the fire chief of the Philadelphia fire department?', 'completion': '\n Adam K. Thiel'
+"prompt": 'Who is the fire chief of the New York fire department?', 'completion': '\n John J. Hodgens'
+"prompt": 'Who replaced daniel a. nigro as the fire chief of the New York fire department?', 'completion': '\n John J. Hodgens'
+"prompt": 'Who is the fire chief of the Boston Fire Department?', 'completion': '\n Paul F. Burke'
+"prompt": 'Who replaced Joseph E. Finn as fire chief of the Boston fire department?', 'completion': '\n Paul F. Burke'
+"prompt": 'Who is the fire chief of the Danbury fire department?', 'completion': '\n Teremce M. McCarthy'
+"prompt": 'Who retired as fire chief of the New York fire department?', 'completion': '\n Daniel A. Nigro'
+"prompt": 'Who was a fire chief of the New York Fire Department?', 'completion': '\n Daniel A. Nigro'
+"prompt": 'Who was a fire chief of the Boston Fire Department?', 'completion': '\n Joseph E. Finn'
+"prompt": 'Who retired as fire chief of the Boston fire department?', 'completion': '\n Joseph E. Finn'
+"prompt": 'Who is the fire chief of the Los Angeles Fire Department?', 'completion': '\n Ralph M. terrazzas'
+
