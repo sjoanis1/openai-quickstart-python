@@ -19,9 +19,8 @@ for x in f:
 #define the prompt       
     
         prompt = "1.List fire deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "
-    
+#       print(prompt)
 
-#        print(prompt)
 
 #generate a response using fine tuned model  (recommend at least 100 entries)
         response = openai.Completion.create(
