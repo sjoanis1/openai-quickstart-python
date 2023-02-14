@@ -3,3 +3,8 @@
 ('Anaheim, CA\n', '|', ' Anaheim, CA; Anaheim Fire & Rescue Department')
 ('Annapolis, MD\n', '|', ' Annapolis, MD; Annapolis Fire Department')
 ('Anoka, MN\n', '|', ' Anoka, MN; Anoka Fire Department')
+('Arapahoe County,  CO\n', '|', ' Arapahoe County, CO; \nAurora Fire Rescue, Littleton Fire Rescue, South Metro Fire Rescue, Parker Fire Rescue, East Metro Fire Rescue, Greenwood Village Fire Department, Englewood Fire Department, Sheridan Fire Protection District, Bow Mar Fire Protection District, Foxfield Fire Protection District')
+('Arlington, TX\n', '|', ' Arlington, TX; Arlington Fire Department')
+('Atlanta, GA\n', '|', ' Atlanta, GA; Atlanta Fire Rescue Department')
+('Aurora,  CO\n', '|', ' Aurora, CO; Aurora Fire Rescue')
+('Baltimore, MD\n', '|', ' Baltimore, MD; Baltimore City Fire Department')
