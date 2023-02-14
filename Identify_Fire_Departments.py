@@ -8,14 +8,13 @@ open('testresults.txt', mode='w')
 
 #open file containing questions.
 f = open("Data\\UASI_Cities.txt", "r") 
+lines = f.readlines()
+#print(lines[1])
 
 counti = 0
-
+f = open("Data\\UASI_Cities.txt", "r") 
 for x in f:
-#    print(x)
-    counti += 1    
-
-    if counti > 0 and counti < 10:
+    if counti >= 0 and counti < 10:
 #define the prompt       
     
         prompt = "1.List fire deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "
@@ -43,10 +42,11 @@ for x in f:
 
     else: 
         pass
-
+    counti += 1    
 #print the notes
 #    print(notes)
 
 print("End") 
 
 open('testresults.txt', mode='r') 
+f.close()
