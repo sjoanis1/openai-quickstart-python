@@ -38,8 +38,8 @@ for x in f:
         notes = response.choices[0].text
 
 #Add response to a .txt file
-#        with open('testresults.txt', mode='a') as file_object:
-#            print((x,"|",notes), file=file_object)
+        with open('testresults.txt', mode='a') as file_object:
+            print((x,"|",notes), file=file_object)
 
     else: 
         pass
