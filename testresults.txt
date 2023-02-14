@@ -1,0 +1,5 @@
+('Adams County,  CO\n', '|', ' Adams County, CO; \n1. Brighton Fire Rescue \n2. Bennett Fire Protection District \n3. Strasburg Fire Protection District \n4. Thornton Fire Department \n5. Westminster Fire Department \n6. North Metro Fire Rescue District \n7. South Adams County Fire Protection District \n8. Commerce City Fire Department \n9. Thornton Fire Rescue \n10. Westminster Fire Rescue')
+('Alameda, CA\n', '|', ' Alameda, CA; Alameda Fire Department')
+('Anaheim, CA\n', '|', ' Anaheim, CA; Anaheim Fire & Rescue Department')
+('Annapolis, MD\n', '|', ' Annapolis, MD; Annapolis Fire Department')
+('Anoka, MN\n', '|', ' Anoka, MN; Anoka Fire Department')
