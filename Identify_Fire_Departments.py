@@ -15,10 +15,11 @@ counti = 0
 f = open("Data\\UASI_Cities.txt", "r") 
 
 for x in f:
-    if counti >= 0 and counti < 5:
+    if counti >= 76 and counti < 95:
 #define the prompt       
-    
-        prompt = "1.List fire deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "
+
+        prompt = "1.List Hazmat deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "   
+#        prompt = "1.List fire deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "
 #       print(prompt)
 
 
@@ -30,7 +31,7 @@ for x in f:
             temperature=0.0,
             max_tokens=256,
             )
-        print(response.choices[0].text)
+#        print(response.choices[0].text)
   
 
 #extract the notes from the response
@@ -48,5 +49,5 @@ for x in f:
 
 print("End") 
 
-open('testresults.txt', mode='r') 
+#open('testresults.txt', mode='r') 
 f.close()
