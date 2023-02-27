@@ -18,19 +18,16 @@ for x in f:
     if counti >= 6 and counti < 13:
 #define the prompt       
 
-#        prompt = "1.List Hazmat deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "   
-#        prompt = "1.List fire deparments in the city of " + x + "City: Boston, MA; Boston Fire Department\ncity: "
-#       print(prompt)
 
-        prompt = "I search and validate information to identify the fire chief and website of a fire rescue organization and identify the current fire chief." 
-        prompt = prompt + "/nI provide the name, website, phone number and email address when they are available."
-        prompt = prompt + "/nnotherwise I answer not found."
-        prompt = prompt + "/nQ: who is the fire chief of the San Diego Fire-Rescue Headquarters?\nA: Colin Stowell; https://www.sandiego.gov/fire; tel: Not found; Not found"
-        prompt = prompt + "/nQ: who is the fire chief of the San Francisco Fire Department?\nA: Robert F. Postel; https://sf-fire.org/; tel: (415) 558-3402; Not found"
-        prompt = prompt + "/nQ: who is the fire chief of the San Mateo Consolidated Fire Department?\nA: Matt Turturici; https://www.smcfire.org/; tel:  (650) 522-7900; Not found"
-        prompt = prompt + "/nWho is the fire chief of the " + x 
-        print(prompt)
+    #    prompt = "I search and validate information to identify the fire chief and website of a fire rescue organization and identify the current fire chief." 
+    #    prompt = prompt + "I provide the name, website, phone number and email address when they are available."
         
+    #    prompt = prompt + "Q: who is the fire chief of the San Diego Fire-Rescue Headquarters?\nA: Colin Stowell; https://www.sandiego.gov/fire; tel: Not found; Not found"
+    #    prompt = prompt + "Q: who is the fire chief of the San Francisco Fire Department?\nA: Robert F. Postel; https://sf-fire.org/; tel: (415) 558-3402; Not found"
+    #    prompt = prompt + "Q: who is the fire chief of the San Mateo Consolidated Fire Department?\nA: Matt Turturici; https://www.smcfire.org/; tel:  (650) 522-7900; Not found"
+        prompt = " Who is the fire chief of the " + x 
+        print(prompt)
+
     #    prompt = "1.I search and validate information to identify the fire chief and website of a fire rescue organization\n2.I search through the internet to find the home address of the departmentnt.\n3.I look for the name of the leader found on web pages within the web domain\n3.I provide the name, website, phone number and email address if they are available otherwise I state that the the information is not available."
     #    prompt = "1.I am a highly intelligent robot that only tells the truth to identify the fire chief based on scrapping a web domain name\n2.I search through each page of the domain to identify the leadership team of command staff\n3.I identify the chief or leader and provide his email and phone number or answer “Not found” if it is not available on the domain."
     
@@ -78,8 +75,12 @@ for x in f:
 #generate a response using fine tuned model  (recommend at least 100 entries)
         response = openai.Completion.create(
           #  model="davinci:ft-personal-2023-02-01-22-49-33",
-            model = "davinci:ft-personal-2023-02-25-00-26-48",
-                     
+            model = "davinci:ft-personal-2023-02-26-15-07-18",
+            #corresponds to ft-mt5iV0aKbgHzL6Ha0zRA4jou
+            
+             
+             
+                       
           # model="text-davinci-003",
             prompt=prompt,
             temperature=0.0,
