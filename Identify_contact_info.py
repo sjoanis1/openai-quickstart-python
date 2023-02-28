@@ -75,7 +75,8 @@ for x in f:
 #generate a response using fine tuned model  (recommend at least 100 entries)
         response = openai.Completion.create(
           #  model="davinci:ft-personal-2023-02-01-22-49-33",
-            model = "davinci:ft-personal-2023-02-26-15-07-18",
+          #  model = "davinci:ft-personal-2023-02-26-15-07-18",
+            model = "davinci:ft-personal-2023-02-28-00-09-37",
             #corresponds to ft-mt5iV0aKbgHzL6Ha0zRA4jou
             
              
