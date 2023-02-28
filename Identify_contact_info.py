@@ -25,7 +25,9 @@ for x in f:
     #    prompt = prompt + "Q: who is the fire chief of the San Diego Fire-Rescue Headquarters?\nA: Colin Stowell; https://www.sandiego.gov/fire; tel: Not found; Not found"
     #    prompt = prompt + "Q: who is the fire chief of the San Francisco Fire Department?\nA: Robert F. Postel; https://sf-fire.org/; tel: (415) 558-3402; Not found"
     #    prompt = prompt + "Q: who is the fire chief of the San Mateo Consolidated Fire Department?\nA: Matt Turturici; https://www.smcfire.org/; tel:  (650) 522-7900; Not found"
-        prompt = " Who is the fire chief of the " + x 
+    #    prompt = prompt + " Who is the fire chief of the " + x + "?"
+    
+        prompt = " Who is the fire chief of the " + x + "?"
         print(prompt)
 
     #    prompt = "1.I search and validate information to identify the fire chief and website of a fire rescue organization\n2.I search through the internet to find the home address of the departmentnt.\n3.I look for the name of the leader found on web pages within the web domain\n3.I provide the name, website, phone number and email address if they are available otherwise I state that the the information is not available."
