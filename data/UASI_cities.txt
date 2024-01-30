@@ -1,0 +1,95 @@
+Adams County,  CO
+Alameda, CA
+Anaheim, CA
+Annapolis, MD
+Anoka, MN
+Arapahoe County,  CO
+Arlington, TX
+Atlanta, GA
+Aurora,  CO
+Baltimore, MD
+Bay Area, CA
+Bethpage, NY
+Boston, MA
+Boulder County ,  CO
+Buckeye, AZ
+Chandler, AZ
+Charlotte, NC
+Chesapeake, VA
+Chicago,  IL
+Cincinnati, OH
+Clear Creek County,  CO
+Cleveland, OH
+Commerce City,  CO
+Contra Costa, CA
+Dallas, TX
+Denver,  CO
+Detroit, MI
+Douglas County ,  CO
+Englewood,  CO
+Fort Lauderdale, FL
+Fort Worth, TX
+Gilbert, AZ
+Glendale,  CO
+Glendale, AZ
+Goodyear, AZ
+Greenwood Village,  CO
+Hastings, MN
+Hauppauge, NY
+Hennepin County, MN
+Honolulu, HI
+Houston, TX
+Jefferson County,  CO
+Kansas City, MO
+Las Vegas, NV
+Littleton,  CO
+Long Beach, CA
+Los Angeles, CA
+Louisiana, MO
+Marin, CA
+Mesa, AZ
+Miami, FL
+Minneapolis, MN
+Minnetonka, MN
+Monterey, CA
+Napa, CA
+New Orleans, LA
+New York, NY
+Newark, NJ
+Norfaulk, VA
+Orlando Area, FL
+Peoria, AZ
+Philadelphia, PA
+Phoenix, AZ
+Pittsbugh, PA
+Portland, OR
+Ramsey County, MN
+Riverside,  CA
+Sacramento,  CA
+Saint Paul, MN
+San Antonio, TX
+San Benito, CA
+San Diego,  CA
+San Francisco, CA
+San Mateo, CA
+Santa Ana, CA
+Santa Clara, CA
+Santa Cruz, CA
+Scottsdale, AZ
+Seattle, WA
+Shakopee, MN
+Solano, CA
+Sonoma, CA
+Stillwaer, MN
+St-Louis, MO
+Suffolk, VA
+Surprise, AZ
+Tampa Area, FL
+Tempe, AZ
+Thornton,  CO
+Twin Cities, MN
+Westminster,  CO
+Wheat Ridge,  CO
+White Plains, NY
+Yonkers, NY
+Yorktown, VA
