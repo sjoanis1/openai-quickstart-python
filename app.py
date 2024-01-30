@@ -17,14 +17,15 @@ def index():
         print(temp)
 
         response = openai.Completion.create(
-            model="text-davinci-003",
+            model="gpt-3.5-turbo-instruct"
+#            model="text-davinci-003",
 #            model="text-curie-001",         
 #            model="curie:ft-personal-2023-02-06-21-28-47",            
             prompt=generate_prompt(main_question),       
             temperature = float(temp),
-            max_tokens=500,
+            max_tokens=1500,
         )
-        print(response.choices[0].text)
+#        print(response.choices[0].text)
         return redirect(url_for("index", result=response.choices[0].text))      
     result = request.args.get("result")
     return render_template("index.html", result=result)
