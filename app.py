@@ -17,11 +17,11 @@ def index():
         print(temp)
 
         response = openai.Completion.create(
-            model="gpt-3.5-turbo-instruct"
+            model="gpt-3.5-turbo-instruct",
 #            model="text-davinci-003",
 #            model="text-curie-001",         
 #            model="curie:ft-personal-2023-02-06-21-28-47",            
-            prompt=generate_prompt(main_question),       
+            prompt = generate_prompt(main_question),       
             temperature = float(temp),
             max_tokens=1500,
         )
@@ -30,3 +30,20 @@ def index():
         return redirect(url_for("index", result=response.choices[0].text))      
     result = request.args.get("result")
     return render_template("index.html", result=result)
+
+
+def generate_prompt(main_question):
+    return """
+    {}   
+""".format(
+        main_question.capitalize()
+    )
+
+##extract the notes from the response
+#notes = response.choices[0].text
+##Add response to a .txt file
+#with open('testresults.txt', mode='w') as file_object:
+#    print((mainquestion,"|",test_output), file=file_object)
+
+#print the notes
+#print(notes)   
